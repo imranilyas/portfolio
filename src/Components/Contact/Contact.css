@@ -1,0 +1,39 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.whole-contact-icon {
+    margin: 35px;
+    width: 200px;
+}
+
+.contact-icons {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.press {
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+.press:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.press:active {
+    color: lavender;
+    background-color: rgb(63, 63, 63);
+}
+
+.contact-text {
+    color: black;
+}
+
+.contact-text:active {
+    color: purple;
+}
