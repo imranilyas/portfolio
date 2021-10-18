@@ -20,14 +20,14 @@ const RootScreen = () => {
             <Router className = 'wholescreen'>
                 {/* Navbar on the left side */}
                 <div className = 'left'>
-                    <Link to='/' className = 'link'>
+                    <Link to='/portfolio' className = 'link'>
                         <div className = 'whole-icon'>
                             <MdHome className = 'icons'/> 
                             <p className = 'description'>Home</p>
                         </div>
                     </Link>
 
-                    <Link to='/background' className = 'link'>
+                    <Link to='/portfolio/background' className = 'link'>
                         <div className = 'whole-icon'>
                             <IoMdContact className = 'icons'/>
                             <p className = 'description'>Background</p>
@@ -43,14 +43,14 @@ const RootScreen = () => {
                         </div>
                     </Link> */}
 
-                    <Link to='/projects' className = 'link'>
+                    <Link to='/portfolio/projects' className = 'link'>
                         <div className = 'whole-icon'>
                             <CgNotes className = 'icons' />
                             <p className = 'description'>Projects</p>
                         </div>
                     </Link>
 
-                    <Link to='/contact' className = 'link'>
+                    <Link to='/portfolio/contact' className = 'link'>
                         <div className = 'whole-icon'>
                             <MdEmail className = 'icons'/>
                             <p className = 'description'>Contact</p>
@@ -61,19 +61,19 @@ const RootScreen = () => {
                 {/* Content on the right side of the screen */}
                 <div className = 'right'>
                     <Switch>
-                        <Route exact path = '/'>
+                        <Route exact path = '/portfolio'>
                             <Home />
                         </Route>    
-                        <Route path = '/background'>
+                        <Route path = '/portfolio/background'>
                             <Background />
                         </Route>
-                        <Route path = '/projects'>
+                        <Route path = '/portfolio/projects'>
                             <Projects />
                         </Route>
-                        <Route path = '/contact'>
+                        <Route path = '/portfolio/contact'>
                             <Contact />
                         </Route>
-                        {/* <Route path = '/experience'>
+                        {/* <Route path = '/portfolio/experience'>
                             <Experience />
                         </Route> */}
                     </Switch>
