@@ -1,0 +1,56 @@
+.project-all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-container {
+    width: 330px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px 15px;
+    overflow-y: hidden;
+}
+
+.project-link {
+    color: purple;
+}
+
+.project-link:active {
+    color: rgb(202, 0, 202);
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-photo {
+    height: 285px;
+    width: auto;
+    margin: 0 10px;
+}
+
+.project-photo:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: zoom-in;
+}
+
+.project-description {
+    text-align: left;
+    width: 155px;
+    margin: 0 5px;
+}
+
+.modal-photo {
+    height: 500px;
+    width: auto;
+}
