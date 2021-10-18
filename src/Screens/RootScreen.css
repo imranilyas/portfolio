@@ -3,7 +3,7 @@
 }
 
 .left {
-    background-color: darkgray;
+    background-color: #A48AA8;
     width: 120px;
     text-align: center;
 }
@@ -20,17 +20,17 @@
 
 .link {
     text-decoration: none;
-    color: purple;
+    color: lavender;
 }
 
 .whole-icon:hover {
-    background-color: rgb(194, 194, 194);
+    background-color: #916D8A;
     transition: 0.1s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .whole-icon:active {
-    background-color: rgb(63, 63, 63);
+    background-color: #553649;
     color: lavender;
 }
 
