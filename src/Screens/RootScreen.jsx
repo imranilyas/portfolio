@@ -20,7 +20,7 @@ const RootScreen = () => {
             <Router className = 'wholescreen'>
                 {/* Navbar on the left side */}
                 <div className = 'left'>
-                    <Link to='/portfolio' className = 'link'>
+                    <Link to='/portfolio/' className = 'link'>
                         <div className = 'whole-icon'>
                             <MdHome className = 'icons'/> 
                             <p className = 'description'>Home</p>
@@ -61,7 +61,7 @@ const RootScreen = () => {
                 {/* Content on the right side of the screen */}
                 <div className = 'right'>
                     <Switch>
-                        <Route exact path = '/portfolio'>
+                        <Route exact path = '/portfolio/'>
                             <Home />
                         </Route>    
                         <Route path = '/portfolio/background'>

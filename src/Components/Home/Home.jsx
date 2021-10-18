@@ -10,7 +10,7 @@ const Home = () => {
             {/* Header */}
             <div className = 'home-title'>
                 {/* Photo of myself */}
-                <img className = 'profile-picture' src = 'portfolio/profile_pic.png' alt = 'Profile'/>
+                <img className = 'profile-picture' src = '/portfolio/profile_pic.png' alt = 'Profile'/>
                 {/* Full Name and Job Title */}
                 <div className = 'name'>
                     <p className = 'profile-name'>Imran Mohammad Ilyas</p>

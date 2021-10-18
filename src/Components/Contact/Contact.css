@@ -5,6 +5,10 @@
     flex-wrap: wrap;
 }
 
+.contact-press-container {
+    margin: 35px 80px;
+}
+
 .whole-contact-icon {
     margin: 35px;
     width: 200px;
