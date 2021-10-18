@@ -1,0 +1,11 @@
+.page-title {
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.container {
+    margin: 2%;
+}
