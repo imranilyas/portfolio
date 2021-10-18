@@ -1,0 +1,44 @@
+.wholescreen {
+    flex-direction: row;
+}
+
+.left {
+    background-color: darkgray;
+    width: 120px;
+    text-align: center;
+}
+
+.whole-icon {
+    padding: 20px;
+    transition: 0.8s;
+}
+
+.icons {
+    color: lavender;
+    font-size: 35px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.whole-icon:hover {
+    background-color: rgb(194, 194, 194);
+    transition: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.whole-icon:active {
+    background-color: rgb(63, 63, 63);
+    color: lavender;
+}
+
+.description {
+    margin: 0;
+}
+
+.right {
+    background-color: lavender;
+    width: 1500px;
+    text-align: center;
+}
