@@ -1,0 +1,62 @@
+.home-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 2%;
+    border-bottom: 2px solid black;
+}
+
+.name {
+    flex: 2;
+}
+
+.profile-picture {
+    height: 225px;
+    width: 225px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+.profile-name {
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.profile-job {
+    font-size: 40px;
+    margin-top: -5%;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.home-summary {
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+.home-icons-container {
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-icons {
+    margin: 10px 20px;
+    height: 75px;
+    width: 75px;
+}
+
+#js-icon {
+    background-color: #323330;
+    height: 75px;
+    width: 75px;
+}
+
+#ts-icon {
+    background-color: white;
+}
