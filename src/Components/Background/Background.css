@@ -1,0 +1,45 @@
+.background-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.something {
+    width: 10px;
+}
+
+.background-info {
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.background-img {
+    height: 60px;
+    width: auto;
+}
+
+.background-card-header {
+    text-align: center;
+}
+
+.background-card-description {
+    text-align: left;
+}
+
+.background-link {
+    color: purple;
+}
+
+.background-link:active {
+    color: rgb(202, 0, 202);
+}
