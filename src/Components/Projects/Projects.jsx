@@ -60,7 +60,7 @@ const Projects = () => {
                     </a>
                     <div className = 'project-info'>
                         {/* Left Side Photo that can be enlarged */}
-                        <img className = 'project-photo' src = 'project-photos/MainBatchScreen.png' alt = 'Revature Product Placement Main Screen' onClick = {() => openModal(1)}/>
+                        <img className = 'project-photo larger-photos' src = 'project-photos/MainBatchScreen.png' alt = 'Revature Product Placement Main Screen' onClick = {() => openModal(1)}/>
                         {/* Right Side Description of the project */}
                         <p className = 'project-description'>
                             P<sup>3</sup> is a mobile application designed for Revature Managers to place an order of associates
@@ -75,7 +75,7 @@ const Projects = () => {
                     </a>
                     <div className = 'project-info'>
                         {/* Left Side Photo that can be enlarged */}
-                        <img className = 'project-photo' src = 'project-photos/ScouterHomeScreen.png' alt = 'Scouter Main Feed Screen' onClick = {() => openModal(2)}/>
+                        <img className = 'project-photo larger-photos' src = 'project-photos/ScouterHomeScreen.png' alt = 'Scouter Main Feed Screen' onClick = {() => openModal(2)}/>
                         {/* Right Side Description of the project */}
                         <p className = 'project-description'>
                             Scouter is a Serverless, Android-first social media application designed to be a community for Anime viewers.
