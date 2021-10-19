@@ -3,20 +3,22 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5%;
 }
 
 .contact-press-container {
-    margin: 35px 80px;
+    margin: 2% 5%;
 }
 
 .whole-contact-icon {
-    margin: 35px;
-    width: 200px;
+    margin: 5% 8%;
+    width: 250px;
 }
 
 .contact-icons {
-    font-size: 55px;
+    font-size: 80px;
     color: rgba(0, 0, 0, 0.75);
+
 }
 
 .press {
@@ -36,6 +38,7 @@
 
 .contact-text {
     color: black;
+    font-size: 20px;
 }
 
 .contact-text:active {

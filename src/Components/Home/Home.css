@@ -12,8 +12,8 @@
 }
 
 .profile-picture {
-    height: 22%;
-    width: 22%;
+    height: 400px;
+    width: 400px;
     /* height: 225px; */
     /* width: 225px; */
     border: 2px solid black;
@@ -44,14 +44,14 @@
 }
 
 .home-icons-container {
-    margin-bottom: 2px;
+    margin-bottom: 1%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .home-icons {
-    margin: 20px 20px;
+    margin: 2%;
     height: 115px;
     width: 115px;
 }

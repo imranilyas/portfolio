@@ -11,29 +11,28 @@
     flex-direction: row;
 }
 
-.something {
-    width: 10px;
-}
-
 .background-info {
-    width: 300px;
-    margin: 10px 10px;
+    width: 440px;
+    margin: 10px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
+    padding-bottom: 6px;
     border-radius: 20px;
 }
 
 .background-img {
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 
 .background-card-header {
     text-align: center;
+    font-size: 35px;
 }
 
 .background-card-description {
     text-align: left;
+    font-size: 22px;
 }
 
 .background-link {
