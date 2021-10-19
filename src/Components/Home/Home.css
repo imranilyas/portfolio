@@ -12,8 +12,10 @@
 }
 
 .profile-picture {
-    height: 225px;
-    width: 225px;
+    height: 22%;
+    width: 22%;
+    /* height: 225px; */
+    /* width: 225px; */
     border: 2px solid black;
     border-radius: 50%;
     margin-right: 2%;
@@ -21,20 +23,23 @@
 }
 
 .profile-name {
-    font-size: 60px;
+    font-size: 90px;
+    /* font-size: 10vh; */
+    /* font-size: 700%; */
     font-family: monospace;
     font-weight: bold;
+    margin-bottom: -2%;
 }
 
 .profile-job {
-    font-size: 40px;
-    margin-top: -5%;
+    font-size: 70px;
+    /* font-size: 500%; */
     font-family: monospace;
     font-weight: bold;
 }
 
 .home-summary {
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 4%;
 }
 
@@ -46,15 +51,13 @@
 }
 
 .home-icons {
-    margin: 10px 20px;
-    height: 75px;
-    width: 75px;
+    margin: 20px 20px;
+    height: 115px;
+    width: 115px;
 }
 
 #js-icon {
     background-color: #323330;
-    height: 75px;
-    width: 75px;
 }
 
 #ts-icon {
