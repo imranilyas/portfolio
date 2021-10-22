@@ -9,6 +9,10 @@
     background-color: #A48AA8;
     text-align: center;
     flex: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
 }
 
 .whole-icon {
