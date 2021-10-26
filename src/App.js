@@ -4,7 +4,7 @@ import RootScreen from './Screens/RootScreen';
 function App() {
   return (
     <div className = 'portfolio'>
-        <RootScreen />
+      <RootScreen />
     </div>
   );
 }

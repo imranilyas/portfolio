@@ -12,10 +12,10 @@ const Contact = () => {
         <div className = 'container'>
             <h1 className = 'page-title'>Contact</h1>
             <div className = 'contact-container'>
-                <a className = 'whole-contact-icon' href = 'https://www.linkedin.com/in/imran-ilyas' target = '_blank' rel = 'noreferrer'>
+                <a className = 'contact-press-container' href = 'https://www.linkedin.com/in/imran-ilyas' target = '_blank' rel = 'noreferrer'>
                     <FaLinkedinIn className = 'contact-icons press'/>
                 </a>
-                <a className = 'whole-contact-icon' href = 'https://github.com/imranilyas' target = '_blank' rel = 'noreferrer'>
+                <a className = 'contact-press-container' href = 'https://github.com/imranilyas' target = '_blank' rel = 'noreferrer'>
                     <SiGithub className = 'contact-icons press'/>                    
                 </a>               
             </div>

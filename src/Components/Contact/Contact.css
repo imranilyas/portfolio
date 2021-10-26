@@ -3,15 +3,20 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5%;
+}
+
+.contact-press-container {
+    margin: 2% 5%;
 }
 
 .whole-contact-icon {
-    margin: 35px;
-    width: 200px;
+    margin: 5% 8%;
+    width: 250px;
 }
 
 .contact-icons {
-    font-size: 55px;
+    font-size: 80px;
     color: rgba(0, 0, 0, 0.75);
 }
 
@@ -32,8 +37,25 @@
 
 .contact-text {
     color: black;
+    font-size: 20px;
 }
 
 .contact-text:active {
     color: purple;
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-text {
+        font-size: 12px;
+    }
+
+    .contact-icons {
+        font-size: 40px;
+    }
+
+    .whole-contact-icon {
+        width: 200px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
 }

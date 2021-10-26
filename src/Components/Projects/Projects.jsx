@@ -49,6 +49,7 @@ const Projects = () => {
                         <p className = 'project-description'>
                             GenDrops is a React Native mobile application inspired by the game Genshin Impact designed for players
                             to learn more information about specific monster drops. The user may add, edit, view, and delete a monster drop from the NoSQL database.
+                            A fun feature this app has is a dark mode triggered by a switch.
                         </p>
                     </div>
                 </div>
@@ -59,7 +60,7 @@ const Projects = () => {
                     </a>
                     <div className = 'project-info'>
                         {/* Left Side Photo that can be enlarged */}
-                        <img className = 'project-photo' src = 'project-photos/MainBatchScreen.png' alt = 'Revature Product Placement Main Screen' onClick = {() => openModal(1)}/>
+                        <img className = 'project-photo larger-photos' src = 'project-photos/MainBatchScreen.png' alt = 'Revature Product Placement Main Screen' onClick = {() => openModal(1)}/>
                         {/* Right Side Description of the project */}
                         <p className = 'project-description'>
                             P<sup>3</sup> is a mobile application designed for Revature Managers to place an order of associates
@@ -74,10 +75,10 @@ const Projects = () => {
                     </a>
                     <div className = 'project-info'>
                         {/* Left Side Photo that can be enlarged */}
-                        <img className = 'project-photo' src = 'project-photos/ScouterHomeScreen.png' alt = 'Scouter Main Feed Screen' onClick = {() => openModal(2)}/>
+                        <img className = 'project-photo larger-photos' src = 'project-photos/ScouterHomeScreen.png' alt = 'Scouter Main Feed Screen' onClick = {() => openModal(2)}/>
                         {/* Right Side Description of the project */}
                         <p className = 'project-description'>
-                            Scouter is a Serverless, Android-first social application designed to be a community for Anime viewers.
+                            Scouter is a Serverless, Android-first social media application designed to be a community for Anime viewers.
                             The user may post an image and/or comment and all their followers will see their post in their main feed, which is just one of Scouter's many functions.
                         </p>
                     </div>
@@ -87,6 +88,7 @@ const Projects = () => {
                 isOpen={modalOpen}
                 onRequestClose={closeModal}
                 style={customStyles}
+                preventScroll={true}
             >
                 <img className = 'modal-photo' src = {modalPhoto} alt = {altPhotoName}/>
             </Modal>
