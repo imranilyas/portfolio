@@ -88,6 +88,7 @@ const Projects = () => {
                 isOpen={modalOpen}
                 onRequestClose={closeModal}
                 style={customStyles}
+                preventScroll={true}
             >
                 <img className = 'modal-photo' src = {modalPhoto} alt = {altPhotoName}/>
             </Modal>
