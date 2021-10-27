@@ -42,11 +42,11 @@ The contact component holds methods of getting ahold of me. Nothing much there o
 In order to make the website more mobile-friendly, there are media queries with a max-width of 450px to decrease font-size, adjust the navbar, and change the spacing. The main difference between viewing the application on a phone vs a computer is that the navbar changes. Instead of being fixed on the application, it is now opened through a button located at the top of the screen. Once the button is pressed, the navbar is opened and the rest of the screen is blurred. To close the navbar, the user may either click on one of the icons in the navbar or click off the navbar.
 
 <p align="center">
- <img src = "public/markdown-photos/Mobile Home.PNG" alt="Home Screen on Phone" height="400" />
- <img src = "public/markdown-photos/Mobile Navbar.PNG" alt="Navbar on Phone" height="400" />
- <img src = "public/markdown-photos/Mobile Background.PNG" alt="Background Screen on Phone" height="400" />
- <img src = "public/markdown-photos/Mobile Projects.PNG" alt="Projects Screen on Phone" height="400" />
- <img src = "public/markdown-photos/Mobile Contact.PNG" alt="Contact Screen on Phone" height="400" />
+ <img src = "public/markdown-photos/Mobile Home.PNG" alt="Home Screen on Phone" height="600" />
+ <img src = "public/markdown-photos/Mobile Navbar.PNG" alt="Navbar on Phone" height="600" />
+ <img src = "public/markdown-photos/Mobile Background.PNG" alt="Background Screen on Phone" height="600" />
+ <img src = "public/markdown-photos/Mobile Projects.PNG" alt="Projects Screen on Phone" height="600" />
+ <img src = "public/markdown-photos/Mobile Contact.PNG" alt="Contact Screen on Phone" height="600" />
 </p>
 
 ## Future Iterations
