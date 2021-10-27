@@ -15,6 +15,12 @@
     height: 100vh;
 }
 
+.right {
+    background-color: lavender;
+    flex: 12;
+    text-align: center;
+}
+
 .whole-icon {
     padding: 30px 20px;
     transition: 0.8s;
@@ -46,12 +52,6 @@
     font-size: 28px;
 }
 
-.right {
-    background-color: lavender;
-    flex: 12;
-    text-align: center;
-}
-
 .hamburger-icon {
     display: none;
 }
@@ -61,6 +61,8 @@
 
     .left {
         height: inherit;
+        z-index: 2;
+        opacity: 0.8;
     }
 
     .hamburger-icon {
