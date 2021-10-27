@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     flex: 1;
-    padding-bottom: 2%;
+    padding-bottom: 50px;
     border-bottom: 2px solid black;
 }
 
@@ -62,4 +62,16 @@
 
 #ts-icon {
     background-color: white;
+}
+
+@media only screen and (max-width: 450px) {
+    .home-title {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .home-icons {
+        height: 100px;
+        width: 100px;
+    }
 }
