@@ -10,8 +10,8 @@
     text-align: center;
     flex: 1;
     position: sticky;
-    top: 0;
     left: 0;
+    top: 0;
     height: 100vh;
     /* display: none; */
 }
@@ -60,6 +60,20 @@
 /* Media Queries */
 @media only screen and (max-width: 450px) {
 
+    .left {
+        /* box-sizing: border-box; */
+        height: inherit;
+        /* position: absolute; */
+        /* position: static; */
+        z-index: 2;
+        /* height: inherit; */
+    }
+
+    .right {
+        /* width: 100wv; */
+        z-index: 1;
+    }
+
     .hamburger-icon {
         cursor: pointer;
         border-radius: 10%;
@@ -92,6 +106,6 @@
     }
 
     .blur-right {
-        filter: blur(10px);
+        filter: blur(8px);
     }
 }
