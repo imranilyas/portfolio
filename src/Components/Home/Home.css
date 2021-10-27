@@ -14,8 +14,6 @@
 .profile-picture {
     height: 400px;
     width: 400px;
-    /* height: 225px; */
-    /* width: 225px; */
     border: 2px solid black;
     border-radius: 50%;
     margin-right: 2%;
@@ -24,8 +22,6 @@
 
 .profile-name {
     font-size: 90px;
-    /* font-size: 10vh; */
-    /* font-size: 700%; */
     font-family: monospace;
     font-weight: bold;
     margin-bottom: -2%;
@@ -33,7 +29,6 @@
 
 .profile-job {
     font-size: 70px;
-    /* font-size: 500%; */
     font-family: monospace;
     font-weight: bold;
 }
@@ -67,11 +62,38 @@
 @media only screen and (max-width: 450px) {
     .home-title {
         flex-direction: column;
-        padding-bottom: 10px;
+        padding-bottom: 0;
+        margin-bottom: 50px;
+    }
+
+    .profile-picture {
+        margin-top: 20px;
+        height: 370px;
+        width: 370px;
+    }
+
+    .profile-name {
+        font-size: 70px;
+    }
+
+    .profile-job {
+        font-size: 55px;
+    }
+
+    .home-summary {
+        font-size: 30px;
     }
 
     .home-icons {
         height: 100px;
         width: 100px;
+    }
+
+    #js-icon {
+        background-color: transparent;
+    }
+
+    #ts-icon {
+        background-color: transparent;
     }
 }

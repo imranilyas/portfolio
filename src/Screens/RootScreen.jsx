@@ -42,7 +42,7 @@ const RootScreen = () => {
         <>
         <Router className = 'wholescreen'>
             {/* Navbar on the left side */}
-            <div className = {bar ? 'left open-left' : 'left hide-left'} ref = {navref}>
+            <div className = {bar ? 'left' : 'left hide-left'} ref = {navref}>
                 <Link to='/portfolio/' className = 'link' onClick = {closeNavbar}>
                     <div className = 'whole-icon'>
                         <MdHome className = 'icons'/> 
